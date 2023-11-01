@@ -3,10 +3,10 @@ class Solution {
         if (x < 0) {
             return false;
         }
-        long  reverse = 0;
-        long  num = x;
+        int  reverse = 0;
+        int  num = x;
         while(num!=0){
-            int remainder =(int)(num%10);
+            int remainder =(num%10);
             reverse = reverse * 10 + remainder;
             num = num/10;
         }
