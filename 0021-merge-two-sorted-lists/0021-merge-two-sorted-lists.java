@@ -1,7 +1,7 @@
 
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode ans = new ListNode(-1);
+        ListNode ans = new ListNode(0);
         ListNode cur = ans;
         ListNode p1 = list1;
         ListNode q1 = list2;
