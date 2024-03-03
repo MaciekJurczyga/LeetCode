@@ -3,8 +3,7 @@ class Solution {
         int ans = 0;
         
         
-        Arrays.sort(g);
-        Arrays.sort(s);
+        
         
         for(int i = 0; i < g.length; i++) {
             int smallestDiff = Integer.MAX_VALUE;
