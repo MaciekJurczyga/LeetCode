@@ -29,3 +29,4 @@ public int findNegIndex(int[][] grid, int left, int right, int currentRow) {
     return firstNegIndex;
 }
 }
+
