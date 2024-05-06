@@ -30,6 +30,6 @@ class Solution {
         Counter(root.left);
         Counter(root.right);
         counter++;
-
+        return counter;
     }
 }
