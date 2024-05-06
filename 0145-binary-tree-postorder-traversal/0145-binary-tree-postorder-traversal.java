@@ -16,11 +16,10 @@
 class Solution {
     public List<Integer> ans =  new ArrayList<>();
     public List<Integer> postorderTraversal(TreeNode root) {
-        if(root == null){
-            return ans;
-        }
+        postorder(root);
+        return ans;
     }
-    public List<Integer> postorder(TreeNode root){
+    public void postorder(TreeNode root){
         if(root == null){
             return;
         }
