@@ -14,6 +14,7 @@ class Solution {
         int[] result = new int[2];
         result[0] = -1;
         result[1] = -1;
+        System.gc();
         return result;
     }
     if(firstSmaller == -1){
@@ -41,6 +42,7 @@ class Solution {
     int[] result = new int[2];
     result[0] = leftAns;
     result[1] = rightAns;
+    System.gc();
     return result;
 
     }
